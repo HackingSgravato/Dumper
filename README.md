@@ -9,7 +9,6 @@
 
 <p align="center">
   <a href="#Features">Features</a> •
-  <a href="#Download">Download</a> •
   <a href="#License">License</a> •
   <a href="#Nuget">Nuget</a>
 </p>
@@ -22,11 +21,6 @@
 * Platform
   - Windows.
 * Fast memory dump method.
-
-
-## Download
-
-You can download the latest installable version of Ez Dumper for Windows [here](https://github.com/HackingSgravato/Dumper/releases/tag/v1).
 
 
 ## Nuget
