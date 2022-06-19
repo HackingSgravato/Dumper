@@ -11,6 +11,7 @@
   <a href="#Features">Features</a> •
   <a href="#Download">Download</a> •
   <a href="#License">License</a>
+  <a href="#Nuget">Nuget</a>
 </p>
 
 ## Features
@@ -26,7 +27,10 @@
 ## Download
 
 You can download the latest installable version of Ez Dumper for Windows [here](https://github.com/HackingSgravato/Dumper/releases/tag/v1).
-    
+
+
+## Nuget
+You can find the nuget [here](https://www.nuget.org/packages/Dumper/1.0.0)
 
 ## License
 
