@@ -25,7 +25,7 @@
 
 ## Download
 
-You can [download](https://github.com/HackingSgravato/Dumper/releases/tag/v1) the latest installable version of Ez Dumper for Windows.
+You can download the latest installable version of Ez Dumper for Windows [here](https://github.com/HackingSgravato/Dumper/releases/tag/v1).
     
 
 ## License
