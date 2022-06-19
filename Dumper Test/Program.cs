@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using DumperN;
 
 namespace Dumper_Test
 {
@@ -8,9 +9,9 @@ namespace Dumper_Test
         static void Main()
         {
             Dumper d = new Dumper();
-            d.addProcess = "explorer";
-            d.addProcess = "6100";
-            d.addProcess = "3616";
+            d.addProcess("explorer");
+            d.addProcess("6100");
+            d.addProcess("3616");
             d.customLoad(); 
 
             Console.WriteLine("processes dumped in " + d.ElapsedMilliseconds + "ms");
