@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#Features">Features</a> •
   <a href="#Download">Download</a> •
-  <a href="#License">License</a>
+  <a href="#License">License</a> •
   <a href="#Nuget">Nuget</a>
 </p>
 
