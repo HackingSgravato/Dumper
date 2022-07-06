@@ -20,6 +20,8 @@ namespace DumperN
 			}
 		}
 
+		public string customDumpsFolder { get; set; } = null;
+
 		/// <summary>
 		/// for the svchosts you must digit the pid
 		/// </summary>
@@ -215,7 +217,7 @@ namespace DumperN
 					{
 						if (!exclusionList.Contains(p.ProcessName.ToUpper()))
 						{
-							runCommand($"{s2Dir} -pid {p.Id} -l 4 -nh {additionalCommands} > {dumpsFolder}\\{p.ProcessName}_{r.Next(1000, 9999)}.txt");
+							runCommand($"{s2Dir} -pid {p.Id} -l 4 -nh {additionalCommands} > {dumpsFolder}\\{p.ProcessName}_{r.Next(1000, 999999)}.txt");
 						}
 					}
 					catch { }
@@ -237,8 +239,8 @@ namespace DumperN
 					{
 						if (processesList.Contains(p.ProcessName.ToUpper()))
 						{
-							string txtFileName = $"{p.ProcessName}_{r.Next(1000, 9999)}.txt";
-							runCommand($"{s2Dir} -pid {p.Id} -l 4 -nh {additionalCommands} > {dumpsFolder}\\{txtFileName}");
+							string txtFileName = $"{p.ProcessName}_{r.Next(1000, 999999)}.txt";
+							runCommand($"{s2Dir} -pid {p.Id} -l 4 -nh {additionalCommands} > {(customDumpsFolder is null ? dumpsFolder : customDumpsFolder)}\\{txtFileName}");
 							resultFileList.Add(Path.Combine(dumpsFolder, txtFileName));
 						}
 					}

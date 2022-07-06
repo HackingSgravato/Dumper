@@ -1,0 +1,10 @@
+D:\Nuget\Dumper Library\Dumper Test\Dumper Test\bin\Debug\Dumper Test.exe.config
+D:\Nuget\Dumper Library\Dumper Test\Dumper Test\bin\Debug\Dumper Test.exe
+D:\Nuget\Dumper Library\Dumper Test\Dumper Test\bin\Debug\Dumper Test.pdb
+D:\Nuget\Dumper Library\Dumper Test\Dumper Test\obj\Debug\Dumper Test.csproj.AssemblyReference.cache
+D:\Nuget\Dumper Library\Dumper Test\Dumper Test\obj\Debug\Dumper Test.csproj.SuggestedBindingRedirects.cache
+D:\Nuget\Dumper Library\Dumper Test\Dumper Test\obj\Debug\Dumper Test.csproj.CoreCompileInputs.cache
+D:\Nuget\Dumper Library\Dumper Test\Dumper Test\obj\Debug\Dumper Test.exe
+D:\Nuget\Dumper Library\Dumper Test\Dumper Test\obj\Debug\Dumper Test.pdb
+D:\Nuget\Dumper Library\Dumper Test\Dumper Test\obj\Debug\Dumper_Test.Properties.Resources.resources
+D:\Nuget\Dumper Library\Dumper Test\Dumper Test\obj\Debug\Dumper Test.csproj.GenerateResource.cache
